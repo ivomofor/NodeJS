@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Actor&display=swap');
+body h1 {
+    font-family:'Actor', sans-serif;
+    font-weight: 599;
+}
+
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+}
+#section1-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+#section1-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+#section2-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+#section2-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.space{
+    padding: 5px;
+}
+#topPageImage{
+    width: 1330px
+}
+.put-heading-to-center {
+    text-align: center;
+}
+.shadow:hover {
+    box-shadow: 10px 10px 10px gray;
+    height: none;
+    width: none;
+    padding: 1em;
+    border: 0x solid black;
+    border-radius: 8px;
+    border-bottom: 1px;
+    background-color: #EEEEEE;
+    transition: 250ms; 
+    }
+.shadow:hover > h1{
+    text-shadow: 8px 8px 8px #326464d8;
+}
+.center_service_text {
+    text-align: center;
+}
+#service_span_1 {
+    width: 70%;
+    margin-left: 10%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <% include ../partials/head %>
+        <link rel="stylesheet" href="../../public/styles/contact.css" />
+    </head>
+    <body>
+        <div id='flex-contact'>
+            <header>
+                <% include ../partials/header %>
+            </header>
+            <main role="main" class="content">
+                <img src="../../public/images/welcome-upcoming.36c0bdd4.png" style="margin: auto; width: 80%; height: 40%; padding-left: 10%"/>
+                <div>
+                        <section id="section1" role="main">
+                                <form id="contact-form" action="/contact" method="POST" name="ContactForm" style="margin: auto">
+                                    <legend></legend>
+                                    <p>
+                                        <label for="firstName">Fist Name
+                                            <input type="text" name="firstName" required id="firstName" class="contactForm" autofocus/>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label for="last-name">Last name
+                                            <input type="test" name="lastName" required id="lastName" class="contactForm"/>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label for="phone">Phone Number
+                                            <input type="tel" name="phone" id="PhoneNumber" class="contactForm"/>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <lable for="email">Email
+                                            <input type="email" name="email" required id="Email" class="contactForm" placeholder="email@example.com" />
+                                        </lable>
+                                    </p>
+                                    <p>
+                                        <label for="message">Message
+                                            <textarea id="txtMsg" rows="10" cols="39" name="message" class="contactForm"></textarea>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label for="submit">
+                                            <input type="submit" name="submit" id="submit" value="Submit"   class="contactForm"/>
+                                        </label>
+                                    </p>
+                                </form>
+                            </section>
+                            <section id="section2">
+                                Tell us about your project by filling the form on the right.
+                                <p>Describe your project and the goals you wish to achieve.</p>
+                                <p>What are your budget requirements? We'll provide recommendations on the most 
+                                    appropriate solutions for your project accordingly.</p>
+                                    <p>
+                                    When would you like to begin? When would you like the
+                                    project finished? Please describe any deadlines you need to meet
+                                    </p>
+                            </section>
+                </div>
+            </main>
+            <footer>
+                <% include ../partials/footer %>
+            </footer>
+        </div>
+        <!-- Scripts -->
+        <% include ../partials/scripts %>
+        <script>
+        </script>
+    </body>
+</html>
