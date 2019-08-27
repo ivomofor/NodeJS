@@ -42,9 +42,9 @@ module.exports = (app)=>{
             }
         });
         const emailOptions = {
-            from: 'Adevoon <ivomofor@gmail.com>',
+            from: 'We Love Dev Work <we.love.dev.work@gmail.com>',
             to: email,
-            subject: 'Application Development Operations(Adevoon);',
+            subject: 'We Love Dev Work;',
             text: emailMessage,
         }
         transporter.sendMail(emailOptions, (error, info)=>{
